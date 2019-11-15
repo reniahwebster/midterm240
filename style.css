@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#wrapper{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #ff9a0a;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 5%;
+	margin-top: 10%;
+	font-size: 200%;
+}
+
+
+header{
+	width: 100%;
+}
+
+.title{ 
+	width: 70%;
+	float: left;
+	padding-bottom: 10%;
+	padding-top: 5%;
+}
+
+.logo{
+	width: 25%;
+	float: left;
+	padding-top: 3%;
+	padding-right: 5%;
+}
+
+.logo img{
+	width: 15%;
+	float: right;
+}
+
+.search{
+	width: 100%;
+	color: #FFFFFF;
+}
+
+figure{
+	width: 30%;
+	margin: 2% auto;
+}
+
+.title h1{
+	font-size: 550%;
+	margin-left: 40%;
+	color: #FFFFFF;
+}
+
+.title h3{
+	font-size: 100%;
+	margin-left: 71%;
+	color: #FFFFFF;
+}
+
+.abc{
+
+}
